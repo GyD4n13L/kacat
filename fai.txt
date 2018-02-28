@@ -1,2 +1,5 @@
 hogyan használjuk a Fully Automatic Installer-t
 akkor ez működhet?
+sudo apt install qemu-kvm
+sudo apt install qemu-utils
+sudo apt install bridge-utils
