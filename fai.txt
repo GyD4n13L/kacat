@@ -10,6 +10,12 @@ sudo apt install fai-nfsroot
 sudo apt install fai-setup-storage
 sudo apt install fai-quickstart
 
+A következő fájlok végére /etc/apt/sources.list és a /etc/fai/apt/sources.list illesszük be a következőket
+
+deb https://fai-project.org/download jessie koeln
+vagy
+deb https://fai-project.org/download stretch koeln
+
 
 akkor folytassuk is
 A következő paranccsal lecsekkoljuk, hogy hány interface-t használunk a kapcsolódáshoz. Nekünk csak az eth kell majd "ip route"
