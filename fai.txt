@@ -3,5 +3,16 @@ akkor ez működhet?
 sudo apt install qemu-kvm
 sudo apt install qemu-utils
 sudo apt install bridge-utils
+sudo apt install fai-server
+sudo apt install fai-client
+sudo apt install fai-doc
+sudo apt install fai-nfsroot
+sudo apt install fai-setup-storage
+sudo apt install fai-quickstart
+
+
 akkor folytassuk is
-A kovetkező paranccsal lecsekkoljuk, hogy hány interface-t használunk a kapcsolódáshoz. Nekünk csak az eth kell majd ip route
+A következő paranccsal lecsekkoljuk, hogy hány interface-t használunk a kapcsolódáshoz. Nekünk csak az eth kell majd "ip route"
+
+
+Kérdés?! Miért nem települt a fai-mk-network parancs?
